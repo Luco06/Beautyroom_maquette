@@ -1,0 +1,164 @@
+@charset "UTF-8";
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
+}
+
+* header {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+* header .name {
+  padding: 2%;
+  background: lightgray;
+}
+
+* header .name h1 {
+  padding: 1%;
+  text-shadow: 10px 10px 10px;
+}
+
+* header .name h2 {
+  padding: 1%;
+  text-shadow: 10px 10px 10px;
+}
+
+* header .name p {
+  padding: 1%;
+}
+
+* header nav {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 45%;
+  margin: auto;
+}
+
+* main .bannière {
+  position: relative;
+  margin-bottom: 5%;
+}
+
+* main .bannière img {
+  height: 700px;
+  width: 100%;
+  opacity: 0.8;
+}
+
+* main .bannière .btn {
+  position: absolute;
+  top: 50%;
+  right: 45%;
+  color: white;
+  border-width: 1px;
+  border-style: solid;
+  border-color: white;
+}
+
+* main .salon {
+  min-height: 500px;
+  text-align: justify;
+}
+
+* main .salon .tof img {
+  float: left;
+  max-width: 550px;
+  max-height: 400px;
+  margin-right: 3%;
+}
+
+* main .salon h3 {
+  font-size: 40px;
+  text-align: start;
+  margin: 1%;
+}
+
+* main .salon .text {
+  margin-right: 5%;
+}
+
+* main .team {
+  min-height: 500px;
+  text-align: justify;
+}
+
+* main .team .tof img {
+  float: right;
+  max-width: 550px;
+  max-height: 400px;
+  margin-left: 3%;
+}
+
+* main .team h3 {
+  font-size: 40px;
+  text-align: end;
+  margin: 1%;
+}
+
+* main .team .text {
+  margin-left: 5%;
+}
+
+* main .produit {
+  min-height: 500px;
+  text-align: justify;
+}
+
+* main .produit .tof img {
+  float: left;
+  max-width: 550px;
+  max-height: 400px;
+  margin-right: 3%;
+}
+
+* main .produit h3 {
+  font-size: 40px;
+  text-align: start;
+  margin: 1%;
+}
+
+* main .produit .text {
+  margin-right: 5%;
+}
+
+* footer {
+  background: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 1%;
+}
+
+* footer span {
+  font-size: 22px;
+  color: white;
+}
+
+* footer span a {
+  text-decoration: none;
+  color: white;
+  font-size: 10px;
+}
+
+* footer ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  vertical-align: middle;
+}
+
+* footer ul li {
+  cursor: pointer;
+  margin: 20%;
+}
+/*# sourceMappingURL=style.css.map */

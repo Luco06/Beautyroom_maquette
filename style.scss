@@ -1,0 +1,140 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+
+    header{
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+        .name{
+            padding: 2%;
+            background: lightgray;
+            h1{
+                padding: 1%;
+                text-shadow: 10px 10px 10px;
+            }
+            h2{
+                padding: 1%;
+                text-shadow: 10px 10px 10px;
+            }
+            p{
+                padding: 1%;
+            }
+        }
+        nav{
+            margin-top: 50px;
+            margin-bottom: 50px;
+            width: 45%;
+            margin: auto;
+            
+
+        }
+    }
+    main{
+        .bannière{
+            position: relative;
+            margin-bottom: 5%;
+            img{
+                height: 700px;
+                width: 100%;
+                opacity: 0.8;
+            }
+            .btn{
+                position: absolute;
+                top: 50%;
+                right: 45%;
+                color: white;
+                border-width: 1px;
+                border-style: solid;
+                border-color: white;
+            }
+        }
+        .salon{
+            min-height: 500px;
+            text-align: justify;
+            .tof{
+                img{
+                    float: left;
+                    max-width: 550px;
+                    max-height: 400px;
+                    margin-right: 3%;
+                }
+            }
+            h3{
+                font-size: 40px;
+                text-align: start;
+                margin: 1%;
+            }
+            .text{
+                margin-right: 5%;
+            }
+        }
+        .team{
+            min-height: 500px;
+            text-align: justify;
+            .tof{
+                img{
+                    float: right;
+                    max-width: 550px;
+                    max-height: 400px;
+                    margin-left: 3%;
+                }
+            }
+            h3{
+                font-size: 40px;
+                text-align: end;
+                margin: 1%;
+            }
+            .text{
+                margin-left: 5%;
+            }
+        }
+        .produit{
+            min-height: 500px;
+            text-align: justify;
+            .tof{
+                img{
+                    float: left;
+                    max-width: 550px;
+                    max-height: 400px;
+                    margin-right: 3%;
+                }
+            }
+            h3{
+                font-size: 40px;
+                text-align: start;
+                margin: 1%;
+            }
+            .text{
+                margin-right: 5%;
+            }
+        }
+    }
+    footer{
+        background: black;
+        display: flex;
+        justify-content: center;
+        padding: 1%;
+        span{
+            font-size: 22px;
+            color: white;
+            a{
+                text-decoration: none;
+                color: white;
+                font-size: 10px;
+            }
+        }
+        ul{
+            display: flex;
+            list-style: none;
+            vertical-align: middle;
+            li{
+                cursor: pointer;
+                margin: 20%;
+            }
+        }
+    }
+}
